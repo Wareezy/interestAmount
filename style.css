@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #333;
+}
+
+input, #answerTag {
+
+   /* Make input elements block-level */ 
+   display: block; 
+
+   /* Make input elements take up full width */ 
+   width: 50%; 
+    padding: 10px;
+    text-align: center;
+
+   /* Center the input elements */ 
+   margin: 10px auto; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*button hover effect*/
+
+button:hover {
+    background-color: #45a049;
+}
+
+span {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Responsive code to make the screen changes sizes */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    input, #answerTag, button {
+        width: 100%;
+    }
+}
